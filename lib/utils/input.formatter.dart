@@ -1,6 +1,11 @@
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
-enum TipoFormato { telefone, celular, cpf, cep }
+enum TipoFormato {
+  telefone,
+  celular,
+  cpf,
+  cep,
+}
 
 class _TipoFormato {
   static const String maskCelular = "(##) #####-####";
